@@ -26,7 +26,7 @@ function Navbar() {
             </div>
             <div className={styles.mobileMenu}>
                 <div className={styles.MobileButton}>
-                    <span onClick={toogleActivate}>&#9776;</span>
+                    <span className={styles.mobileMenuIcon} onClick={toogleActivate}>&#9776;</span>
                 </div>
                 <div className={`${styles.sidenav} ${isActive ? styles.mySideNav : ''}`}>
                     <a href="#f" onClick={toogleActivate} className={`${styles.closebtn}`}>&times;</a>

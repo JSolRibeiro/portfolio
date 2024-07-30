@@ -35,7 +35,9 @@
     .navbar{
         display: none;
     }
-
+.mobileMenuIcon{
+  font-size: 25px;
+}
     .mobileMenu{
       display: block;
     }
