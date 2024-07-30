@@ -1,0 +1,90 @@
+.card{
+    margin-top: 30px;
+    display: flex;
+    width: 32.65%;
+    flex-direction: column;
+    height: 100%;
+    padding-right: 1%;
+}
+
+.buttons{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.card img{
+    width: 100%;
+    margin: 0;
+}
+
+.card img:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.4s;
+    filter: drop-shadow(0 0 15px #01091CBF);
+}
+
+.cardData{
+        background-color: #01091CBF;
+        border-radius: 20px;
+        width: auto;
+        padding: 10px 30px;
+        text-align: left;
+        height: 0;
+        transition: 0.5s;
+        overflow-y: hidden;
+}
+
+.cardDataHover{
+    height: auto;
+    transition: height 0.5s;
+}
+
+.card a{
+    margin-right: 10px;
+    width: 100%;
+    padding: 0;
+}
+
+.cardData button{
+    font-size: 15px;
+    margin: 0;
+}
+
+.titleCard{
+    font-size: 20px;
+}
+
+@media screen and (max-width: 430px){
+    .card{
+        width: 100%;
+    }
+
+    .cardData h1{
+        font-size: 1.2rem !important;
+    }
+
+
+    }
+
+    @media screen and (min-width: 431px) and (max-width: 1024px){
+       .card{
+        width: 49%;
+       }
+
+       .cardData h1{
+        font-size: 1.4rem !important;
+    }
+
+       .card:nth-child(2n){
+        padding-right: 0;
+    }
+
+    }
+
+    @media screen and (min-width: 1025px) {
+        .card:nth-child(3n){
+            padding-right: 0;
+        }
+        
+    }

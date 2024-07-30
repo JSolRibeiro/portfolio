@@ -1,0 +1,89 @@
+.Presentation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+@keyframes blink {
+    0%{
+        opacity: 1;
+    }
+    25%{
+        opacity: 0.75;
+    }
+
+    50%{
+        opacity: 0;
+    }
+    
+75%{
+    opacity: 0.25;
+}
+
+    100%{
+        opacity: 1;
+    }
+}
+
+.cursor{
+    display: inline-block;
+    animation: blink 1s step-end infinite;
+    color:#74FAC0;
+}
+
+.nome{
+    color: #74FAC0;
+}
+
+
+#PresentationText{
+    width: 50%;
+    padding-right: 3%;
+    text-align: left;
+}
+
+#PresentationText h4{
+    font-size: 2em;
+}
+
+#PresentationText h1{
+    font-size: 4.2em;
+}
+
+#PresentationText p{
+    font-size: 1.3rem;
+    line-height: 1.4em;
+}
+
+#Foto{
+    width: 100%;
+    margin-top: 80px;
+}
+
+@media screen and (min-width: 801px){
+    #PresentationText{
+        margin-left: 3%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .Presentation{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #Foto{
+        width: 70%;
+    }
+    
+    #PresentationText{
+        width: 80%;
+        padding: 0;
+    }
+
+    #PresentationText p{
+        text-align: justify;
+    }
+    
+}

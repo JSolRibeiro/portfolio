@@ -1,0 +1,48 @@
+.Skills{
+    background-color: #01091CBF;
+    width: 70%;
+    border-radius: 15px;
+    padding: 30px 0 40px 0;
+    margin: 0 auto;
+}
+
+.title{
+    margin: 0;
+    font-size: 3.5em;
+}
+
+.Skills ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px auto 0 auto;
+    padding: 0;
+}
+
+.Skills li{
+    cursor: pointer;
+}
+
+.Skills img{
+    transition-duration: 0.4s;
+    
+}
+
+
+.Skills li:hover img{
+    transform: translateY(-7px);
+    transition-duration: 0.4s;
+    
+    filter: drop-shadow(0 0 15px #000000BF);
+}
+
+@media screen and (max-width: 1095px){
+    .Skills ul{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .Skills li{
+        margin: 1%;
+    }
+}

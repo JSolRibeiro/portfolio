@@ -1,0 +1,49 @@
+.footer{
+    margin-top: 20px;
+    width: 100%;
+}
+.footerMenu{
+    display: flex;
+    list-style:none;
+    justify-content: center;
+    margin: 40px auto 30px auto;
+    padding: 0;
+    align-items: center;
+}
+
+.footerMenu a{
+    color: aliceblue;
+}
+
+.footerMenu a:hover{
+    color: #74FAC0;
+    transition-duration: 0.5s;
+    
+}
+
+.footerMenu li:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.4s;
+}
+
+.dataContact{
+    list-style: none;
+    padding: 0;
+}
+
+.buttonMobile button{
+margin: 0 8%;
+}
+
+@media screen and (max-width: 800px){
+    .footer li{
+        margin: 0 1.5%;
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: 801px){
+    .footer li{
+        margin: 0 0.5%;
+    }
+}
