@@ -22,6 +22,7 @@
     transform: translateY(-7px);
     transition-duration: 0.4s;
     filter: drop-shadow(0 0 15px #01091CBF);
+    cursor: pointer;
 }
 
 .cardData{
@@ -33,11 +34,13 @@
         height: 0;
         transition: 0.5s;
         overflow-y: hidden;
+        opacity: 0;
 }
 
 .cardDataHover{
     height: auto;
-    transition: height 0.5s;
+    transition: 0.5s;
+    opacity: 100;
 }
 
 .card a{
