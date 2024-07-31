@@ -29,18 +29,18 @@
         background-color: #01091CBF;
         border-radius: 20px;
         width: auto;
-        padding: 10px 30px;
+        padding: 0 30px;
         text-align: left;
         height: 0;
         transition: 0.5s;
         overflow-y: hidden;
-        opacity: 0;
 }
 
 .cardDataHover{
     height: auto;
     transition: 0.5s;
-    opacity: 100;
+    padding: 10px 30px;
+    margin-top: 7px;
 }
 
 .card a{
@@ -52,6 +52,10 @@
 .cardData button{
     font-size: 15px;
     margin: 0;
+}
+
+.cardData p{
+    text-align: justify;
 }
 
 .titleCard{
