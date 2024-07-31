@@ -32,13 +32,13 @@
         padding: 0 30px;
         text-align: left;
         height: 0;
-        transition: 0.5s;
+        transition: 0.3s;
         overflow-y: hidden;
 }
 
 .cardDataHover{
     height: auto;
-    transition: 0.5s;
+    transition: 0.3s;
     padding: 10px 30px;
     margin-top: 7px;
 }
